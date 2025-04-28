@@ -3,7 +3,7 @@ import axios from "axios";
 import Sidebar from "./Sidebar";
 import ProductCard from "./ProductCard";
 import Pagination from "./Pagination";
-const API = "http://localhost:3000/api";
+const API = "http://localhost:5000/api";
 const LIMIT = 1;
 const ProductList = () => {
   const [categories, setCategories] = useState([]);
